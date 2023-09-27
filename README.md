@@ -10,7 +10,7 @@
 
 **Find the best hyperparameters for Embedding your data in RAG Pipeline**
 
-![vectorboard banner image](docs/banner.png)
+![vectorboard banner image](docs/images/benchmark.png)
 
 # TL;DR
 
@@ -143,3 +143,5 @@ With Vectorboard, you're not just optimizing your embeddings; you're enhancing t
 
 Have a special feature request? Send your feedback/suggestion on our Discord community:
 [![Discord Follow](https://dcbadge.vercel.app/api/server/Ev48fWkbSu?style=flat)](https://discord.gg/Ev48fWkbSu)
+
+![vectorboard banner image](docs/banner.png)

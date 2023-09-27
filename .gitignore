@@ -27,6 +27,10 @@ ENV/
 *.pyo
 *.pyd
 
+# Jupyter Notebook
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+
 # Python testing
 .pytest_cache/
 .ruff_cache/

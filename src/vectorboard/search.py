@@ -121,11 +121,11 @@ class GridSearch:
         if gradio_app:
 
             def plot_fn():
-                plt.figure(figsize=(50, 25))
+                plt.figure(figsize=(50, 35))
                 plt.style.use("seaborn-v0_8-poster")
                 plt.style.use("seaborn-v0_8-deep")
                 ax = self.experiments_info_df[["run time", "embedding time"]].plot.bar(
-                    subplots=True, figsize=(15, 8), ylabel="Time (s)"
+                    subplots=True, figsize=(40, 25), ylabel="Time (s)"
                 )
 
                 for axis in ax:
