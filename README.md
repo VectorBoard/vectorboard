@@ -1,6 +1,8 @@
 # 💛 Vectorboard - `alpha 0.0.1`
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/Ev48fWkbSu?style=flat)](https://discord.gg/Ev48fWkbSu)
+[![GitHub Repo stars](https://img.shields.io/github/stars/vectorboard/vectorboard?style=social)](https://github.com/vectorboard/vectorboard)
+
 [![Twitter Follow](https://img.shields.io/twitter/follow/vectorboard?style=social)](https://twitter.com/vectorboard)
 [![Twitter Follow](https://img.shields.io/twitter/follow/thehamedmp?style=social)](https://twitter.com/thehamedmp)
 
