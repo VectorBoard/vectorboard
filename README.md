@@ -102,11 +102,23 @@ Finally, view the results in a Gradio app using `.results()` method. To get a pu
 search.results(share=True)
 ```
 
-# Overview and Core concepts
+# Overview and Core Concepts
 
-RAG (Retreival Augmentation Generation) is great but it has a huge emphasis on perfect embeddings.
+RAG (Retrieval-Augmented Generation) revolutionizes the way we approach question-answering and text generation tasks by combining the capabilities of retrieval-based and generative models. While it excels in many areas, one of the critical factors for its success is the quality of embeddings.
 
-But it has challenges. It's hard to find the right
+## The Challenge
+
+RAG is incredibly sensitive to the embeddings it uses for retrieval. Poor or even mediocre embeddings can significantly affect the quality of the answers generated, leading to less accurate and less contextually relevant results. This dependency on high-quality embeddings presents a challenge: How do you find the optimal settings for your specific application?
+
+## Why It's Hard
+
+Selecting the right embeddings involves a complex interplay of hyperparameters—chunk sizes, vector databases, and the choice of embedding algorithms, to name a few. Manual tuning is time-consuming and often lacks rigor, making it less than ideal for achieving peak performance.
+
+## Enter Vectorboard
+
+Vectorboard addresses these challenges head-on. With our framework, you can perform extensive hyperparameter tuning specifically tailored for RAG and LLM applications. Vectorboard's GridSearch functionality allows you to run multiple experiments with different configurations, helping you zero in on the best settings for your task.
+
+With Vectorboard, you're not just optimizing your embeddings; you're enhancing the overall performance and reliability of your RAG pipelines. And the best part? It's all packaged in an intuitive, user-friendly interface that makes the process not just effective, but also enjoyable.
 
 # Current status
 
