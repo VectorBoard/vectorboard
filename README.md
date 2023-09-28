@@ -2,6 +2,7 @@
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/Ev48fWkbSu?style=flat)](https://discord.gg/Ev48fWkbSu)
 [![GitHub Repo stars](https://img.shields.io/github/stars/vectorboard/vectorboard?style=social)](https://github.com/vectorboard/vectorboard)
+![PyPI - Version](https://img.shields.io/pypi/v/vectorboard?style=social)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/vectorboard?style=social)](https://twitter.com/vectorboard)
 [![Twitter Follow](https://img.shields.io/twitter/follow/thehamedmp?style=social)](https://twitter.com/thehamedmp)
@@ -124,7 +125,7 @@ With Vectorboard, you're not just optimizing your embeddings; you're enhancing t
 
 # Current status
 
-- Built on top of [🦜⛓️Langchain]()
+- Built on top of [🦜⛓️Langchain](https://python.langchain.com/docs/get_started/introduction)
 - Using `Gradio` for the final result page (with shareable links)
 
 ## Currently supported steps and parameters
