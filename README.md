@@ -11,7 +11,12 @@
 
 **Find the best hyperparameters for Embedding your data in RAG Pipeline**
 
-![vectorboard banner image](docs/images/benchmark.png)
+Get a detailed report on differences between each hyperparameter combination:
+
+- Performance and embedding time
+- Quality of response on the Eval queries
+
+> More benchmark properties, such as cost estimation and Automated accuracy metric is upcoming.
 
 # TL;DR
 
@@ -104,6 +109,16 @@ Finally, view the results in a Gradio app using `.results()` method. To get a pu
 ```python
 search.results(share=True)
 ```
+
+## What's included in the results?
+
+Several metrics are included in the results page in the Gradio app:
+
+- Total runtime and embedding time per experiment (a combination of hyperparameters in the `param_grid`)
+  ![vectorboard banner image](docs/images/benchmark.png)
+
+- Response on each `eval_query` per `Experiment` in a table format. This way you can see which experiment is giving the correct answer and you can easily compare them with each other.
+  ![gradio image](docs/images/gradio-screenshot-001.png)
 
 # Overview and Core Concepts
 
