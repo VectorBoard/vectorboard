@@ -160,4 +160,16 @@ With Vectorboard, you're not just optimizing your embeddings; you're enhancing t
 Have a special feature request? Send your feedback/suggestion on our Discord community:
 [![Discord Follow](https://dcbadge.vercel.app/api/server/Ev48fWkbSu?style=flat)](https://discord.gg/Ev48fWkbSu)
 
+# License
+Copyright © [Vectorboard](https://vectorboard.ai), released under an MIT license. See the [LICENSE](./LICENSE) file and [Apache Licenses](http://www.apache.org/licenses/).
+
+# Contributors
+
+* [Hamed Mohammadpour](https://github.com/hamedmp) (Vectorboard)
+
+# Contributing
+
+Contributions are always welcome. See the [contributing guide](/CONTRIBUTING.md) to learn how you can help. Build instructions for the
+agent are also in the guide.
+
 ![vectorboard banner image](docs/banner.png)
